@@ -25,3 +25,13 @@ task :new_article do
 	# Here is where you edit what editor you like
 	system "mvim -c 'norm G' #{the_file}"
 end
+
+remote_server= 'ssh.phx.nearlyfreespeech.net'
+remote_username= 'name'
+what_to_upload= 'output'
+target_dir= '/home/public/'
+
+desc "Publish to host via SCP"
+task :publish do
+	system('scp -r output/* martinj_cretscard@ssh.phx.nearlyfreespeech.net:/home/public/')
+end
