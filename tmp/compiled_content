@@ -1,0 +1,1400 @@
+{:	data{I"//blog/2012-09-19-test_post,_please_ignore/:ET{:default{	:	lastI"�<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>
+      Test Post, Please Ignore - cretscard.com
+    </title>
+    <link href='/style.css' media='screen' rel='stylesheet' type='text/css' />
+    <meta content='nanoc =Nanoc::VERSION ' name='generator' />
+  </head>
+  <body>
+    <div id='topleft'>
+      <a href='/'>↩ Back to Martin's home</a>
+    </div>
+    <div id='main'>
+      <h1>Test Post, Please Ignore</h1>
+      <p>I’ve been thinking about making a better blog (better than s$#t, that is) for a while. Doing it with nanoc seems like a good way to do it. Static pages and ruby are my two favourite dishes. </p>
+      
+      <p>Here is short a list of what is going on in my life, and what I am looking forward to/fancy to do list (note that this is just as much a post as it is a test of inline html in md):</p>
+      
+      <ul>
+        <li>Moving to Berlin on the 2nd of October</li>
+      		<ul>
+      		<li>Joining <a href="Rug::B">http://www.rug-b.de/</a></li>
+      		</ul>
+        <li>Learning German, via course in Berlin and continuing with <a href="http://duolingo.com/">Duolingo</a></li>
+      	<li>Getting good with Sinatra
+      	  <ul>
+      	    <li>Internalizing DataMapper</li>
+      	    <li>Learning and internalizing ActiveRecord</li>
+      	    <li>Publishing what I write instead of rm -r it.</li>
+      	  </ul>
+      	</li>
+      	<li>Becoming <em>really</em> good with Rails.</li>
+      </ul>
+      
+      <h2 id="okey-then-now-what">Okey then, now what?</h2>
+      <p>I’ll just publish this, in order to have something to do <em>css magick</em> on.</p>
+    </div>
+  </body>
+</html>
+;T:rawI"�I've been thinking about making a better blog (better than s$#t, that is) for a while. Doing it with nanoc seems like a good way to do it. Static pages and ruby are my two favourite dishes. 
+
+Here is short a list of what is going on in my life, and what I am looking forward to/fancy to do list (note that this is just as much a post as it is a test of inline html in md):
+
+<ul>
+  <li>Moving to Berlin on the 2nd of October</li>
+		<ul>
+		<li>Joining <a href="Rug::B">http://www.rug-b.de/</a></li>
+		</ul>
+  <li>Learning German, via course in Berlin and continuing with <a href="http://duolingo.com/">Duolingo</a></li>
+	<li>Getting good with Sinatra
+	  <ul>
+	    <li>Internalizing DataMapper</li>
+	    <li>Learning and internalizing ActiveRecord</li>
+	    <li>Publishing what I write instead of rm -r it.</li>
+	  </ul>
+	</li>
+	<li>Becoming <em>really</em> good with Rails.</li>
+</ul>
+
+##Okey then, now what?
+I'll just publish this, in order to have something to do *css magick* on.;T:preI"<p>I’ve been thinking about making a better blog (better than s$#t, that is) for a while. Doing it with nanoc seems like a good way to do it. Static pages and ruby are my two favourite dishes. </p>
+
+<p>Here is short a list of what is going on in my life, and what I am looking forward to/fancy to do list (note that this is just as much a post as it is a test of inline html in md):</p>
+
+<ul>
+  <li>Moving to Berlin on the 2nd of October</li>
+		<ul>
+		<li>Joining <a href="Rug::B">http://www.rug-b.de/</a></li>
+		</ul>
+  <li>Learning German, via course in Berlin and continuing with <a href="http://duolingo.com/">Duolingo</a></li>
+	<li>Getting good with Sinatra
+	  <ul>
+	    <li>Internalizing DataMapper</li>
+	    <li>Learning and internalizing ActiveRecord</li>
+	    <li>Publishing what I write instead of rm -r it.</li>
+	  </ul>
+	</li>
+	<li>Becoming <em>really</em> good with Rails.</li>
+</ul>
+
+<h2 id="okey-then-now-what">Okey then, now what?</h2>
+<p>I’ll just publish this, in order to have something to do <em>css magick</em> on.</p>
+;T:	post@
+I"&/blog/2012-09-30-fun_with_telnet/;T{;{	;I"F<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>
+      Fun things to do in telnet - cretscard.com
+    </title>
+    <link href='/style.css' media='screen' rel='stylesheet' type='text/css' />
+    <meta content='nanoc =Nanoc::VERSION ' name='generator' />
+  </head>
+  <body>
+    <div id='topleft'>
+      <a href='/'>↩ Back to Martin's home</a>
+    </div>
+    <div id='main'>
+      <h1>Fun things to do in telnet</h1>
+      <div class="warning">This article is aimed at people who have rarely, if ever, used telnet. If that doesn't apply to you, this is not the right page to read. Head on to <a href="/">the root</a>.</div>
+<p>Don’t we all remember that day when mum or dad showed us the terminal on their Debian server down in the cellar? They typed <code>vi /home/any/file</code> to edit something, and you could not even begin to comprehend why someone would use a program that requires you to press <code>i</code> before it can be used. </p>
+
+<p>It was <code>lynx</code>, <code>samba</code> and <code>perl</code>. It was <code>nc</code>, <code>dig</code> and <code>ssh</code>. It was glorious. </p>
+
+<p>In this article I’ll show you around some fun things you can do with one of the most fun utils of them all, <code>telnet</code>. If you are not used to telneting, you’ll have a blast. Telnet is a protocol for connecting a client to a host. Back before I was even born, it was used to check school email from home (assuming you had a private modem, as many here in Sweden did) amongst many things. Nowadays, we use the web for <a href="http://programmers.stackexchange.com/questions/165041/why-did-the-web-win-the-space-of-remote-applications-and-x-not">things that were more complicated in the past</a>. But the old ways of telnet, irc and mail still lives. </p>
+
+<p>Connecting to old bulletin boards and <a href="https://en.wikipedia.org/wiki/MUD">MUD’s</a> feels like trespassing in old (and sometimes abandoned) houses, filled with archieves and stories. </p>
+
+<h2 id="ok-lets-connect-already">Ok, let’s connect already!</h2>
+
+<p>Assuming you are in a graphical session right now, open a terminal emulator. On Windows you hit super+r and type <code>cmd</code>. Users of Linux and BSD (yes, Ubuntu and Mac OS X) should be able to easily open a terminal. </p>
+
+<h3 id="the-bastard-operator-from-hell-excuse-server">The Bastard Operator From Hell Excuse Server</h3>
+<p>The BOFH Excuse Server is quite the straightforward type; on each connect they give you a good excuse for anything. Your boss wondering why you are siting here reading a blog about how they sent data back in 1973? Quick, type <code>$telnet towel.blinkenlights.nl 666</code> and you’ll have a great one-liner to serve them. </p>
+
+<h3 id="surf-the-web">Surf the web!</h3>
+<p>We all know that cool people use <a href="https://en.wikipedia.org/wiki/CURL">curl</a>|<a href="https://en.wikipedia.org/wiki/Less_(Unix)">less</a> as a web browser, but you can get the same results with telnet. When connected to a telnet host you can simply send a HTTP command to it (you know, GET, POST, CONNECT, etc).</p>
+
+<p><code>$telnet www.csua.berkeley.edu 80</code>
+Wait for it to connect. This is the Computer Science Undergraduate Association of Berkeley University in the Americas. </p>
+
+<p>Send the HTTP request.
+<code>GET / HTTP/1.1</code>
+This means ‘send GET request to root with HTTP 1.1’. It should return the html of their site. Many hosts dicriminate against incomplete HTTP headers such as this one, for good reasons. So this won’t always work. </p>
+
+<p>This is an easy way to experiment with http headers. Play around!</p>
+
+<h3 id="watch-star-wars-iv">Watch Star Wars IV</h3>
+<p>Who says piracy needs some fancy schmancy Torrents or Usenet? Sten@blinkenlights.nl, who made #1, also hosts the whole fourth episode of Star Wars as ascii. To connect, you need to pop some corn, get a soda and do $<code>telnet towel.blinkenlights.nl</code>. The sound is not that good, though. And I don’t think it comes in 720p. </p>
+
+<h3 id="socialize">Socialize</h3>
+<p>The web is nice, we all spend much time reding and writing here. But the BBS’s of the old day still live. There are <a href="http://synchro.net/sbbslist.html">a lot of them, acually</a>. If you want to try one random one out, <a href="telnet://fatcatsbbs.com">fatcats</a> is fun. They <a href="http://fatcatsbbs.com/">have a website too</a>.</p>
+
+<h3 id="forget-all-about-azeroth">Forget all about Azeroth</h3>
+<p>All of this has been at least almost useful. But for forgetting your woes, there is only three things that help: time, alcohol or multi-user dungeons. To connect to one of the many muds avaliable, $<code>telnet</code> to <code>stonia.ttu.ee 4000</code>. <a href="http://www.mudconnect.com/mud-bin/adv_search.cgi?Mode=MUD&amp;mud=Stonia+(The+Cruel+and+Lost+World+of+Stonia)">This particular one</a> is newbie friendly, but remember that role-playing is encouraged. Be wary though, muds can be very fun and distracting! </p>
+
+<h2 id="there-is-more-to-find">There is more to find</h2>
+<p>There is a whole world out there for you to find! You can even watch <a href="telnet:miku.acm.uiuc.edu">the Nyan cat</a> at $<code>telnet miku.acm.uiuc.edu</code>. I hope you found this article entertaining, and keep an interest in the treasures that is the more basic computing software, like <code>sh</code>, <code>telnet</code> with friends. </p>
+
+<p>In another post I’ll go thru how to set up your own telnet service. We’ll write it in C or Ruby or something. It’ll be fun.</p>
+    </div>
+  </body>
+</html>
+;T;	I"R<div class="warning">This article is aimed at people who have rarely, if ever, used telnet. If that doesn't apply to you, this is not the right page to read. Head on to <a href='/'>the root</a>.</div>
+Don't we all remember that day when mum or dad showed us the terminal on their Debian server down in the cellar? They typed `vi /home/any/file` to edit something, and you could not even begin to comprehend why someone would use a program that requires you to press `i` before it can be used. 
+
+It was `lynx`, `samba` and `perl`. It was `nc`, `dig` and `ssh`. It was glorious. 
+
+In this article I'll show you around some fun things you can do with one of the most fun utils of them all, `telnet`. If you are not used to telneting, you'll have a blast. Telnet is a protocol for connecting a client to a host. Back before I was even born, it was used to check school email from home (assuming you had a private modem, as many here in Sweden did) amongst many things. Nowadays, we use the web for [things that were more complicated in the past](http://programmers.stackexchange.com/questions/165041/why-did-the-web-win-the-space-of-remote-applications-and-x-not). But the old ways of telnet, irc and mail still lives. 
+
+Connecting to old bulletin boards and [MUD's](https://en.wikipedia.org/wiki/MUD) feels like trespassing in old (and sometimes abandoned) houses, filled with archieves and stories. 
+
+##Ok, let's connect already!
+
+Assuming you are in a graphical session right now, open a terminal emulator. On Windows you hit super+r and type `cmd`. Users of Linux and BSD (yes, Ubuntu and Mac OS X) should be able to easily open a terminal. 
+
+### The Bastard Operator From Hell Excuse Server
+The BOFH Excuse Server is quite the straightforward type; on each connect they give you a good excuse for anything. Your boss wondering why you are siting here reading a blog about how they sent data back in 1973? Quick, type `$telnet towel.blinkenlights.nl 666` and you'll have a great one-liner to serve them. 
+
+### Surf the web!
+We all know that cool people use [curl](https://en.wikipedia.org/wiki/CURL)|[less](https://en.wikipedia.org/wiki/Less_(Unix)) as a web browser, but you can get the same results with telnet. When connected to a telnet host you can simply send a HTTP command to it (you know, GET, POST, CONNECT, etc).
+
+`$telnet www.csua.berkeley.edu 80`
+Wait for it to connect. This is the Computer Science Undergraduate Association of Berkeley University in the Americas. 
+
+Send the HTTP request.
+`GET / HTTP/1.1`
+This means 'send GET request to root with HTTP 1.1'. It should return the html of their site. Many hosts dicriminate against incomplete HTTP headers such as this one, for good reasons. So this won't always work. 
+
+This is an easy way to experiment with http headers. Play around!
+
+### Watch Star Wars IV
+Who says piracy needs some fancy schmancy Torrents or Usenet? Sten@blinkenlights.nl, who made #1, also hosts the whole fourth episode of Star Wars as ascii. To connect, you need to pop some corn, get a soda and do $`telnet towel.blinkenlights.nl`. The sound is not that good, though. And I don't think it comes in 720p. 
+
+### Socialize
+The web is nice, we all spend much time reding and writing here. But the BBS's of the old day still live. There are [a lot of them, acually](http://synchro.net/sbbslist.html). If you want to try one random one out, [fatcats](telnet://fatcatsbbs.com) is fun. They [have a website too](http://fatcatsbbs.com/).
+
+### Forget all about Azeroth
+All of this has been at least almost useful. But for forgetting your woes, there is only three things that help: time, alcohol or multi-user dungeons. To connect to one of the many muds avaliable, $`telnet` to `stonia.ttu.ee 4000`. [This particular one](http://www.mudconnect.com/mud-bin/adv_search.cgi?Mode=MUD&mud=Stonia+(The+Cruel+and+Lost+World+of+Stonia)) is newbie friendly, but remember that role-playing is encouraged. Be wary though, muds can be very fun and distracting! 
+
+## There is more to find
+There is a whole world out there for you to find! You can even watch [the Nyan cat](telnet:miku.acm.uiuc.edu) at $`telnet miku.acm.uiuc.edu`. I hope you found this article entertaining, and keep an interest in the treasures that is the more basic computing software, like `sh`, `telnet` with friends. 
+
+In another post I'll go thru how to set up your own telnet service. We'll write it in C or Ruby or something. It'll be fun.;T;
+I"�<div class="warning">This article is aimed at people who have rarely, if ever, used telnet. If that doesn't apply to you, this is not the right page to read. Head on to <a href="/">the root</a>.</div>
+<p>Don’t we all remember that day when mum or dad showed us the terminal on their Debian server down in the cellar? They typed <code>vi /home/any/file</code> to edit something, and you could not even begin to comprehend why someone would use a program that requires you to press <code>i</code> before it can be used. </p>
+
+<p>It was <code>lynx</code>, <code>samba</code> and <code>perl</code>. It was <code>nc</code>, <code>dig</code> and <code>ssh</code>. It was glorious. </p>
+
+<p>In this article I’ll show you around some fun things you can do with one of the most fun utils of them all, <code>telnet</code>. If you are not used to telneting, you’ll have a blast. Telnet is a protocol for connecting a client to a host. Back before I was even born, it was used to check school email from home (assuming you had a private modem, as many here in Sweden did) amongst many things. Nowadays, we use the web for <a href="http://programmers.stackexchange.com/questions/165041/why-did-the-web-win-the-space-of-remote-applications-and-x-not">things that were more complicated in the past</a>. But the old ways of telnet, irc and mail still lives. </p>
+
+<p>Connecting to old bulletin boards and <a href="https://en.wikipedia.org/wiki/MUD">MUD’s</a> feels like trespassing in old (and sometimes abandoned) houses, filled with archieves and stories. </p>
+
+<h2 id="ok-lets-connect-already">Ok, let’s connect already!</h2>
+
+<p>Assuming you are in a graphical session right now, open a terminal emulator. On Windows you hit super+r and type <code>cmd</code>. Users of Linux and BSD (yes, Ubuntu and Mac OS X) should be able to easily open a terminal. </p>
+
+<h3 id="the-bastard-operator-from-hell-excuse-server">The Bastard Operator From Hell Excuse Server</h3>
+<p>The BOFH Excuse Server is quite the straightforward type; on each connect they give you a good excuse for anything. Your boss wondering why you are siting here reading a blog about how they sent data back in 1973? Quick, type <code>$telnet towel.blinkenlights.nl 666</code> and you’ll have a great one-liner to serve them. </p>
+
+<h3 id="surf-the-web">Surf the web!</h3>
+<p>We all know that cool people use <a href="https://en.wikipedia.org/wiki/CURL">curl</a>|<a href="https://en.wikipedia.org/wiki/Less_(Unix)">less</a> as a web browser, but you can get the same results with telnet. When connected to a telnet host you can simply send a HTTP command to it (you know, GET, POST, CONNECT, etc).</p>
+
+<p><code>$telnet www.csua.berkeley.edu 80</code>
+Wait for it to connect. This is the Computer Science Undergraduate Association of Berkeley University in the Americas. </p>
+
+<p>Send the HTTP request.
+<code>GET / HTTP/1.1</code>
+This means ‘send GET request to root with HTTP 1.1’. It should return the html of their site. Many hosts dicriminate against incomplete HTTP headers such as this one, for good reasons. So this won’t always work. </p>
+
+<p>This is an easy way to experiment with http headers. Play around!</p>
+
+<h3 id="watch-star-wars-iv">Watch Star Wars IV</h3>
+<p>Who says piracy needs some fancy schmancy Torrents or Usenet? Sten@blinkenlights.nl, who made #1, also hosts the whole fourth episode of Star Wars as ascii. To connect, you need to pop some corn, get a soda and do $<code>telnet towel.blinkenlights.nl</code>. The sound is not that good, though. And I don’t think it comes in 720p. </p>
+
+<h3 id="socialize">Socialize</h3>
+<p>The web is nice, we all spend much time reding and writing here. But the BBS’s of the old day still live. There are <a href="http://synchro.net/sbbslist.html">a lot of them, acually</a>. If you want to try one random one out, <a href="telnet://fatcatsbbs.com">fatcats</a> is fun. They <a href="http://fatcatsbbs.com/">have a website too</a>.</p>
+
+<h3 id="forget-all-about-azeroth">Forget all about Azeroth</h3>
+<p>All of this has been at least almost useful. But for forgetting your woes, there is only three things that help: time, alcohol or multi-user dungeons. To connect to one of the many muds avaliable, $<code>telnet</code> to <code>stonia.ttu.ee 4000</code>. <a href="http://www.mudconnect.com/mud-bin/adv_search.cgi?Mode=MUD&amp;mud=Stonia+(The+Cruel+and+Lost+World+of+Stonia)">This particular one</a> is newbie friendly, but remember that role-playing is encouraged. Be wary though, muds can be very fun and distracting! </p>
+
+<h2 id="there-is-more-to-find">There is more to find</h2>
+<p>There is a whole world out there for you to find! You can even watch <a href="telnet:miku.acm.uiuc.edu">the Nyan cat</a> at $<code>telnet miku.acm.uiuc.edu</code>. I hope you found this article entertaining, and keep an interest in the treasures that is the more basic computing software, like <code>sh</code>, <code>telnet</code> with friends. </p>
+
+<p>In another post I’ll go thru how to set up your own telnet service. We’ll write it in C or Ruby or something. It’ll be fun.</p>
+;T;@I"/;T{;{	;I"?<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>
+      cretscard.com
+    </title>
+    <link href='/style.css' media='screen' rel='stylesheet' type='text/css' />
+    <meta content='nanoc =Nanoc::VERSION ' name='generator' />
+  </head>
+  <body>
+    <div id='topleft'>
+      <a href='/'>↩ Back to Martin's home</a>
+    </div>
+    <div id='main'>
+      <h1></h1>
+      <div id='intro'>
+  <h2>
+    This is Martin Josefsson's safe haven
+  </h2>
+  <p>
+    I am into programming, hypertext and free remixable culture.
+    <br />
+    I live in Berlin, but originated in Sweden.
+    <br />
+    Ruby, Rails and C is what gets most of my brain cycles.
+    <br />
+    If you wish to  <a href='mailto:josefsson.martin@gmail.com'>talk to me</a>, it would preferably be about soft or hardware hacking, *nix, bitcoin.
+    <br />
+    But then again, I am glad for most mail that is not about buying Viagra.
+  </p>
+</div>
+<div id='articles'>
+  <h2>Articles</h2>
+  <ul>
+    <li>
+      <a href="/blog/2012-09-30-fun_with_telnet/">Fun things to do in telnet</a>
+    </li>
+    <li>
+      <a href="/blog/2012-09-19-test_post,_please_ignore/">Test Post, Please Ignore</a>
+    </li>
+  </ul>
+</div>
+    </div>
+  </body>
+</html>
+;T;	I"r#intro
+  %h2
+    This is Martin Josefsson's safe haven
+  %p
+    I am into programming, hypertext and free remixable culture.
+    %br/
+    I live in Berlin, but originated in Sweden. 
+    %br/
+    Ruby, Rails and C is what gets most of my brain cycles. 
+    %br/
+    If you wish to  <a href='mailto:josefsson.martin@gmail.com'>talk to me</a>, it would preferably be about soft or hardware hacking, *nix, bitcoin.
+    %br/
+    But then again, I am glad for most mail that is not about buying Viagra. 
+
+#articles
+  %h2 Articles
+  %ul
+    -(@site.sorted_articles).each do |post|
+      %li
+        =link_to(post[:title], post.path);T;
+I"'<div id='intro'>
+  <h2>
+    This is Martin Josefsson's safe haven
+  </h2>
+  <p>
+    I am into programming, hypertext and free remixable culture.
+    <br />
+    I live in Berlin, but originated in Sweden.
+    <br />
+    Ruby, Rails and C is what gets most of my brain cycles.
+    <br />
+    If you wish to  <a href='mailto:josefsson.martin@gmail.com'>talk to me</a>, it would preferably be about soft or hardware hacking, *nix, bitcoin.
+    <br />
+    But then again, I am glad for most mail that is not about buying Viagra.
+  </p>
+</div>
+<div id='articles'>
+  <h2>Articles</h2>
+  <ul>
+    <li>
+      <a href="/blog/2012-09-30-fun_with_telnet/">Fun things to do in telnet</a>
+    </li>
+    <li>
+      <a href="/blog/2012-09-19-test_post,_please_ignore/">Test Post, Please Ignore</a>
+    </li>
+  </ul>
+</div>
+;T;@I"/style/;T{;{ I"/finds/;T{;{	;I"Z<p>%h2
+  A collection of good finds from the web. 
+%ul
+  %li
+    %a{href=’’}</p>
+;T;	I"N%h2
+  A collection of good finds from the web. 
+%ul
+  %li
+    %a{href=''};T;
+I"Z<p>%h2
+  A collection of good finds from the web. 
+%ul
+  %li
+    %a{href=’’}</p>
+;T;@I"/finds/hackers/;T{;{	;I" ?<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>
+      hackers.txt - cretscard.com
+    </title>
+    <link href='/style.css' media='screen' rel='stylesheet' type='text/css' />
+    <meta content='nanoc =Nanoc::VERSION ' name='generator' />
+  </head>
+  <body>
+    <div id='topleft'>
+      <a href='/'>↩ Back to Martin's home</a>
+    </div>
+    <div id='main'>
+      <h1>hackers.txt</h1>
+      <p>Merc Release 2.1
+Sunday 01 August 1993</p>
+
+<p>Furey	mec@shell.portal.com
+Hatchet	hatchet@uclink.berkeley.edu
+Kahn	michael@uclink.berkeley.edu</p>
+
+<p>=== ‘I’m running a Mud so I can learn C programming!’</p>
+
+<p>Yeah, right.</p>
+
+<p>The purpose of this document is to record some of our knowledge, experience and
+philosophy.  No matter what your level, we hope that this document will help
+you become a better software engineer.</p>
+
+<p>Remember that engineering is work, and NO document will substitute for your
+own thinking, learning and experimentation.</p>
+
+<p>=== How to Learn in the First Place</p>
+
+<p>(1) Play with something.
+(2) Read the documentation on it.
+(3) Play with it some more.
+(4) Read documentation again.
+(5) Play with it some more.
+(6) Read documentation again.
+(7) Play with it some more.
+(8) Read documentation again.
+(9) Get the idea?</p>
+
+<p>The idea is that your mind can accept only so much ‘new data’ in a single
+session.  Playing with something doesn’t introduce very much new data, but it
+does transform data in your head from the ‘new’ category to the ‘familiar’
+category.  Reading documentation doesn’t make anything ‘familiar’, but it
+refills your ‘new’ hopper.</p>
+
+<p>Most people, if they even read documentation in the first place, never return
+to it.  They come to a certain minimum level of proficiency and then never
+learn any more.  But modern operating systems, languages, networks, and even
+applications simply cannot be learned in a single session.  You have to work
+through the two-step learning cycle MANY times to master it.</p>
+
+<p>=== The Environment</p>
+
+<p>Computer: the big or little box that you’re using to run Merc.  Computers come
+    from a <em>manufacturer</em> and have a <em>model</em> name.  Here is a list of common
+    manufacturers and models that you’re likely to encounter:</p>
+
+<pre><code>Manufacturer	Model
+------------	-----
+
+Sun		Sun-2
+Sun		Sun-3
+Sun		Sun-4
+DEC		Vax 5000
+DEC		Vax 5900
+IBM		RS/6000
+NeXT		NextCube
+Sequent		Symmetry
+Sequent		Balance
+
+As far as hardware goes, Merc will run on any 32-bit hardware.
+</code></pre>
+
+<p>Operating system: the lowest level program running on your computer.  Most
+    common computers run Unix or some variant of it, such as SunOS, Ultrix,
+    AIX, Mach, or Dynix.  Notice that many of these variants end in ‘IX’.</p>
+
+<pre><code>The two major 'families' of Unix are Berkeley Unix (developed at the
+illustrious University of California, Berkeley) and System 5 Unix
+(developed by Bell Laboratories, the progenitors of Unix).
+
+The most common non-Unix operating system is VMS (a proprietary operating
+system from DEC for their VAX computers).  In the personal computer world,
+you'll find MS-DOS, OS/2 for IBM PC's and compatibles, and MacOS for Apple
+Macintosh'es.
+
+GET THIS STRAIGHT: 'VAX' IS NOT AN OPERATING SYSTEM.  It's the name of a
+family of computers from DEC.  There are plenty of Vax'es running VMS, and
+there are even more Vax'es running Berkeley Unix or Ultrix.  The Vax'es
+running Unix have a lot more in common with other machines running
+Unix than they have with Vax'es running VMS.
+
+As far as operating systems go, Merc will run on Unix or Unix variants with
+TCP/IP networking compatible with Berkeley Unix.  It will also run, in
+single-user mode only, on MS-DOS.  With a reasonable amount of work, Merc
+can be ported to any operating system that provides TCP service for telnet
+connections.
+</code></pre>
+
+<p>Languages: Merc is written in C.  ANSI (the American National Standards
+    Institute) has a specification for the C language, and Merc is written in
+    Ansi Standard C.</p>
+
+<pre><code>The most popular compiler for Ansi Standard C is the Gnu 'gcc' compiler
+produced by the Free Software Foundation.  It's available by anonymous
+ftp from prep.ai.mit.edu.  Merc compiles just fine with Gcc 1.38, so
+you can probably use 1.42 and skip the much larger 2.X versions.
+
+You don't have to use gcc.  IBM RS/6000's running the AIX operating system
+come with an Ansi C compiler already.  So do NeXT machines (the standard
+'cc' on NeXT happens to be the Gnu C compiler).  Any Ansi compiler will
+work.
+
+Unfortunately, there are still many machines out there without an Ansi
+standard C compiler.  (Sun is the worst offender in this regard).  You
+can attempt to compile Merc with a non-Ansi (traditional) C compiler by
+using the 'mktrad' script.  See trad.txt for details.
+</code></pre>
+
+<p>If you don’t know what the manufacturer and model of your computer is, as well
+as its operating system, and whether the C compiler is Ansi or non-Ansi, then
+you need to find out.</p>
+
+<p>=== Basic Unix Tools</p>
+
+<p>‘man’	– gives you online manual pages</p>
+
+<p>‘grep’	– stands for ‘global regular expression print’</p>
+
+<p>‘vi’
+‘emacs’
+‘jove’	– use whatever editor floats your boat
+	   but learn the hell out of it
+	   you should know EVERY command in your editor</p>
+
+<p>‘ctags’	– makes ‘tags’ for your editor
+	   allows you to goto functions by name in any source file</p>
+
+<p>’&gt;’
+‘»’
+’&lt;’
+‘|’	– input and output redirection
+	   get someone to show you, or dig it out of ‘man csh’</p>
+
+<p>These are the basic day-in day-out development tools.  Developing without
+knowing how to use ALL of these well is like driving a car without knowing how
+to change gears.</p>
+
+<p>=== Debugging: Theory</p>
+
+<p>Debugging is a science.  You formulate a hypothesis, make predictions based on
+the hypothesis, run the program and provide it experimental input, observe its
+behavior, and confirm or refute the hypothesis.</p>
+
+<p>A good hypothesis is one which makes surprising predictions which then come
+true; predictions that other hypotheses don’t make.</p>
+
+<p>The first step in debugging is not to write bugs in the first place.  This
+sounds obvious, but sadly, is all too often ignored.</p>
+
+<p>If you build a program, and you get ANY errors or ANY warnings, you should fix
+them before continuing.  C was designed so that many buggy ways of writing code
+are legal, but will draw warnings from a suitably smart compiler (such as ‘gcc’
+with the ‘-Wall’ flag enabled).  It takes only minutes to check your warnings
+and to fix the code that generates them, but it takes hours to find bugs
+otherwise.</p>
+
+<p>‘Desk checking’ (proof reading) is almost a lost art in 1993.  Too bad.  You
+should desk check your code before even compiling it, and desk-check it again
+periodically to keep it fresh in mind and find new errors.  If you have someone
+in your group whose ONLY job it is to desk-check other people’s code, that
+person will find and fix more bugs than everyone else combined.</p>
+
+<p>One can desk-check several hundred lines of code per hour.  A top-flight
+software engineer will write, roughly, 99% accurate code on the first pass,
+which still means one bug per hundred lines.  And you are not top flight.
+So … you will find several bugs per hour by desk checking.  This is a very
+rapid bug fixing technique.  Compare that to all the hours you spend screwing
+around with broken programs trying to find ONE bug at a time.</p>
+
+<p>The next technique beyond desk-checking is the time-honored technique of
+inserting ‘print’ statements into the code, and then watching the logged
+values.  Within Merc code, you can call ‘printf’ or ‘fprintf’ to dump
+interesting values at interesting times.  Where and when to dump these values
+is an art, which you will learn only with practice.</p>
+
+<p>If you don’t already know how to redirect output in your operating system, now
+is the time to learn.  On Unix, type the command ‘man csh’, and read the part
+about the ‘&gt;’ operator.  You should also learn the difference between
+‘standard output’ (e.g. output from ‘printf’) and ‘error output’ (e.g. output
+from ‘fprintf’).</p>
+
+<p>Ultimately, you cannot fix a program unless you understand how it’s operating
+in the first place.  Powerful debugging tools will help you collect data, but
+they can’t interpret it, and they can’t fix the underlying problems.  Only you
+can do that.</p>
+
+<p>When you find a bug … your first impulse will be to change the code, kill the
+manifestation of the bug, and declare it fixed.  Not so fast!  The bug you
+observe is often just the symptom of a deeper bug.  You should keep pursuing
+the bug, all the way down.  You should grok the bug and cherish it in fullness
+before causing its discorporation.</p>
+
+<p>Also, when finding a bug, ask yourself two questions: ‘what design and
+programming habits led to the introduction of the bug in the first place?’
+And: ‘what habits would systematically prevent the introduction of bugs like
+this?’</p>
+
+<p>=== Debugging: Tools</p>
+
+<p>When a Unix process accesses an invalid memory location, or (more rarely)
+executes an illegal instruction, or (even more rarely) something else goes
+wrong, the Unix operating system takes control.  The process is incapable of
+further execution and must be killed.  Before killing the process, however, the
+operating system does something for you: it opens a file named ‘core’ and
+writes the entire data space of the process into it.</p>
+
+<p>Thus, ‘dumping core’ is not a cause of problems, or even an effect of problems.
+It’s something the operating system does to help you find fatal problems which
+have rendered your process unable to continue.</p>
+
+<p>One reads a ‘core’ file with a debugger.  The two most popular debuggers on
+Unix are ‘adb’ and ‘gdb’, although occasionally one finds ‘dbx’.  Typically
+one starts a debugger like this: ‘adb merc’ or ‘gdb merc core’.</p>
+
+<p>The first thing, and often the only thing, you need to do inside the debugger
+is take a stack trace.   In ‘adb’, the command for this is ‘$c’.  In gdb,
+the command is ‘backtrace’.  The stack trace will tell you what function your
+program was in when it crashed, and what functions were calling it.  The
+debugger will also list the arguments to these functions.  Interpreting these
+arguments, and using more advanced debugger features, requires a fair amount of
+knowledge about assembly language programming.</p>
+
+<p>If you have access to a program named ‘Purify’ … learn how to use it.</p>
+
+<p>=== Profiling</p>
+
+<p>Here is how to profile a program:</p>
+
+<p>(1) Remove all the .o files and the ‘merc’ executable:</p>
+
+<pre><code>rm *.o 'merc'
+</code></pre>
+
+<p>(2) Edit your makefile, and change the PROF= line:</p>
+
+<pre><code>PROF    = -p
+</code></pre>
+
+<p>(3) Remake merc:</p>
+
+<pre><code>make
+</code></pre>
+
+<p>(4) Run merc as usual.  Shutdown the game with shutdown when you have run long
+    enough to get a good profiling base.  If you crash the game, or kill the
+    process externally, you won’t get profiling information.</p>
+
+<p>(5) Run the ‘prof’ command:</p>
+
+<pre><code>prof merc &gt; prof.out
+</code></pre>
+
+<p>(6) Read prof.out.  Run ‘man prof’ to understand the format of the output.</p>
+
+<p>For advanced profiling, you can use ‘PROF = -pg’ in step (2), and use the
+‘gprof’ command in step 5.  The ‘gprof’ form of profiling gives you a report
+which lists exactly how many times any function calls any other function.  This
+information is valuable for debugging as well as performance analysis.</p>
+
+<p>Availability of ‘prof’ and ‘gprof’ varies from system to system.  Almost every
+Unix system has ‘prof’.  Only some systems have ‘gprof’.</p>
+
+<p>=== Schedule versus Features versus Quality</p>
+
+<p>Now for a few words on project management.</p>
+
+<p>Sooner or later, almost any project faces a trade-off between schedule,
+features, and quality.  Consider a student writing a term paper on the last
+night.  He has three unpalatable choices: he can turn it in late (miss the
+schedule).  He can turn in a shorter paper that doesn’t cover everything
+(reduce the features).  Or he can churn out gibberish (lower the quality).</p>
+
+<p>Similarly in a software project, one often has a choice between making the
+release date, or dropping features, or shipping everything on time and
+hoping that it works (it usually doesn’t).</p>
+
+<p>The most important thing to realize about this decision is that it IS a
+decision.  One can’t get out of it by hoping that some miracle will occur.
+If you don’t react consciously, then external circumstances will drive the
+decision.</p>
+
+<p>Ok, so suppose you are faced with the trade-off and go for a schedule slip.
+Don’t take a small slip … take a big impressive slip.  If you say
+‘I’ll just fix this one problem and finish ASAP’, then likely you will
+wish you had taken just a little more time later.  If you say ‘I think I
+need another day, so I’ll slip by a week’, then it’s much more likely
+that what you’ll have at the end of the week will do the job.  It’s better
+to slip a large block of time once then to slip day-by-day or hour-by-hour
+repeatedly.</p>
+
+<p>If you go for dropping features, again, carve off a big hunk.  Don’t be
+timid and pretend that you’re going to do that work ‘if you just get a
+little spare time.’  That feature of your project is GONE, exploit the
+lessened requirements for all the savings you can!</p>
+
+<p>I can’t offer much advise on how to reduce quality, because that’s always
+my last choice for what to drop on a project.</p>
+
+<p>=== Sleeping</p>
+
+<p>Simple and obvious, but true … engineering takes an alert mind.</p>
+
+<p>It’s very easy, very seductive, to throw a lot of consecutive hours at a
+problem.  One can get into a ‘flow’ state where one’s mind becomes filled
+with the problem, and the work just pours out, hour after hour.  Many
+writers report that they watch a story take place, and just transcribe
+what they see, pounding out page after page of text.  Many software
+engineers have experienced a similar feeling, where the code appears
+to arise spontaneously as they watch themselves type.</p>
+
+<p>I believe most real work gets done in this state.</p>
+
+<p>My experience, however, is that the ‘flow’ period can end subtly and
+gradually.  Without ever noticing a change, I notice that new work isn’t
+flowing out of my hands anymore, that I’m spending lots of time fixing
+up mistakes I made just a few moments ago.  Instead of ideas flashing
+confidently through my mind, doubts and questions arise.</p>
+
+<p>At this point there is a temptation to throw some more hours at the problem.
+‘I’m here, and I was getting a lot of work done, why don’t I just stay all
+night until I figure this out?’  This is a trap!  Don’t do it!</p>
+
+<p>Instead, I suggest: go home, eat, shower, sleep, put yourself back together
+again.  Resume the next day.  While you sleep, your mind will work on the
+problem anyways, and you’ll probably wake up with new ideas.  You’ll get
+more done between 10:00 am and 2:00 pm the next day, then if you stayed up
+between midnight and 10:00 am.</p>
+
+<p>There is a problem with this strategy: remotivating yourself in the morning.
+If the project is one of your choice, that’s usually not a problem.  If it’s
+something you have to do but don’t enjoy, you have to balance the remotivation
+problem versus the very low productivity of working without sleep.</p>
+
+<p>=== Books for Serious Programmers</p>
+
+<p>Out of all the thousands of books out there, three stand out:</p>
+
+<p>Kernighan and Plaugher, <em>The Elements of Programming Style</em>.</p>
+
+<p>Kernighan and Ritchie, <em>The C Programming Language</em>.</p>
+
+<p>Brooks, <em>The Mythical Man Month</em></p>
+    </div>
+  </body>
+</html>
+;T;	I"m9Merc Release 2.1
+Sunday 01 August 1993
+
+Furey	mec@shell.portal.com
+Hatchet	hatchet@uclink.berkeley.edu
+Kahn	michael@uclink.berkeley.edu
+
+
+
+=== 'I'm running a Mud so I can learn C programming!'
+
+Yeah, right.
+
+The purpose of this document is to record some of our knowledge, experience and
+philosophy.  No matter what your level, we hope that this document will help
+you become a better software engineer.
+
+Remember that engineering is work, and NO document will substitute for your
+own thinking, learning and experimentation.
+
+
+
+=== How to Learn in the First Place
+
+(1) Play with something.
+(2) Read the documentation on it.
+(3) Play with it some more.
+(4) Read documentation again.
+(5) Play with it some more.
+(6) Read documentation again.
+(7) Play with it some more.
+(8) Read documentation again.
+(9) Get the idea?
+
+The idea is that your mind can accept only so much 'new data' in a single
+session.  Playing with something doesn't introduce very much new data, but it
+does transform data in your head from the 'new' category to the 'familiar'
+category.  Reading documentation doesn't make anything 'familiar', but it
+refills your 'new' hopper.
+
+Most people, if they even read documentation in the first place, never return
+to it.  They come to a certain minimum level of proficiency and then never
+learn any more.  But modern operating systems, languages, networks, and even
+applications simply cannot be learned in a single session.  You have to work
+through the two-step learning cycle MANY times to master it.
+
+
+
+=== The Environment
+
+Computer: the big or little box that you're using to run Merc.  Computers come
+    from a _manufacturer_ and have a _model_ name.  Here is a list of common
+    manufacturers and models that you're likely to encounter:
+
+	Manufacturer	Model
+	------------	-----
+
+	Sun		Sun-2
+	Sun		Sun-3
+	Sun		Sun-4
+	DEC		Vax 5000
+	DEC		Vax 5900
+	IBM		RS/6000
+	NeXT		NextCube
+	Sequent		Symmetry
+	Sequent		Balance
+
+    As far as hardware goes, Merc will run on any 32-bit hardware.
+
+Operating system: the lowest level program running on your computer.  Most
+    common computers run Unix or some variant of it, such as SunOS, Ultrix,
+    AIX, Mach, or Dynix.  Notice that many of these variants end in 'IX'.
+
+    The two major 'families' of Unix are Berkeley Unix (developed at the
+    illustrious University of California, Berkeley) and System 5 Unix
+    (developed by Bell Laboratories, the progenitors of Unix).
+
+    The most common non-Unix operating system is VMS (a proprietary operating
+    system from DEC for their VAX computers).  In the personal computer world,
+    you'll find MS-DOS, OS/2 for IBM PC's and compatibles, and MacOS for Apple
+    Macintosh'es.
+
+    GET THIS STRAIGHT: 'VAX' IS NOT AN OPERATING SYSTEM.  It's the name of a
+    family of computers from DEC.  There are plenty of Vax'es running VMS, and
+    there are even more Vax'es running Berkeley Unix or Ultrix.  The Vax'es
+    running Unix have a lot more in common with other machines running
+    Unix than they have with Vax'es running VMS.
+
+    As far as operating systems go, Merc will run on Unix or Unix variants with
+    TCP/IP networking compatible with Berkeley Unix.  It will also run, in
+    single-user mode only, on MS-DOS.  With a reasonable amount of work, Merc
+    can be ported to any operating system that provides TCP service for telnet
+    connections.
+
+Languages: Merc is written in C.  ANSI (the American National Standards
+    Institute) has a specification for the C language, and Merc is written in
+    Ansi Standard C.
+
+    The most popular compiler for Ansi Standard C is the Gnu 'gcc' compiler
+    produced by the Free Software Foundation.  It's available by anonymous
+    ftp from prep.ai.mit.edu.  Merc compiles just fine with Gcc 1.38, so
+    you can probably use 1.42 and skip the much larger 2.X versions.
+
+    You don't have to use gcc.  IBM RS/6000's running the AIX operating system
+    come with an Ansi C compiler already.  So do NeXT machines (the standard
+    'cc' on NeXT happens to be the Gnu C compiler).  Any Ansi compiler will
+    work.
+
+    Unfortunately, there are still many machines out there without an Ansi
+    standard C compiler.  (Sun is the worst offender in this regard).  You
+    can attempt to compile Merc with a non-Ansi (traditional) C compiler by
+    using the 'mktrad' script.  See trad.txt for details.
+
+If you don't know what the manufacturer and model of your computer is, as well
+as its operating system, and whether the C compiler is Ansi or non-Ansi, then
+you need to find out.
+
+
+
+=== Basic Unix Tools
+
+'man'	-- gives you online manual pages
+
+'grep'	-- stands for 'global regular expression print'
+
+'vi'
+'emacs'
+'jove'	-- use whatever editor floats your boat
+	   but learn the hell out of it
+	   you should know EVERY command in your editor
+
+'ctags'	-- makes 'tags' for your editor
+	   allows you to goto functions by name in any source file
+
+'>'
+'>>'
+'<'
+'|'	-- input and output redirection
+	   get someone to show you, or dig it out of 'man csh'
+
+These are the basic day-in day-out development tools.  Developing without
+knowing how to use ALL of these well is like driving a car without knowing how
+to change gears.
+
+
+
+=== Debugging: Theory
+
+Debugging is a science.  You formulate a hypothesis, make predictions based on
+the hypothesis, run the program and provide it experimental input, observe its
+behavior, and confirm or refute the hypothesis.
+
+A good hypothesis is one which makes surprising predictions which then come
+true; predictions that other hypotheses don't make.
+
+The first step in debugging is not to write bugs in the first place.  This
+sounds obvious, but sadly, is all too often ignored.
+
+If you build a program, and you get ANY errors or ANY warnings, you should fix
+them before continuing.  C was designed so that many buggy ways of writing code
+are legal, but will draw warnings from a suitably smart compiler (such as 'gcc'
+with the '-Wall' flag enabled).  It takes only minutes to check your warnings
+and to fix the code that generates them, but it takes hours to find bugs
+otherwise.
+
+'Desk checking' (proof reading) is almost a lost art in 1993.  Too bad.  You
+should desk check your code before even compiling it, and desk-check it again
+periodically to keep it fresh in mind and find new errors.  If you have someone
+in your group whose ONLY job it is to desk-check other people's code, that
+person will find and fix more bugs than everyone else combined.
+
+One can desk-check several hundred lines of code per hour.  A top-flight
+software engineer will write, roughly, 99% accurate code on the first pass,
+which still means one bug per hundred lines.  And you are not top flight.
+So ... you will find several bugs per hour by desk checking.  This is a very
+rapid bug fixing technique.  Compare that to all the hours you spend screwing
+around with broken programs trying to find ONE bug at a time.
+
+The next technique beyond desk-checking is the time-honored technique of
+inserting 'print' statements into the code, and then watching the logged
+values.  Within Merc code, you can call 'printf' or 'fprintf' to dump
+interesting values at interesting times.  Where and when to dump these values
+is an art, which you will learn only with practice.
+
+If you don't already know how to redirect output in your operating system, now
+is the time to learn.  On Unix, type the command 'man csh', and read the part
+about the '>' operator.  You should also learn the difference between
+'standard output' (e.g. output from 'printf') and 'error output' (e.g. output
+from 'fprintf').
+
+Ultimately, you cannot fix a program unless you understand how it's operating
+in the first place.  Powerful debugging tools will help you collect data, but
+they can't interpret it, and they can't fix the underlying problems.  Only you
+can do that.
+
+When you find a bug ... your first impulse will be to change the code, kill the
+manifestation of the bug, and declare it fixed.  Not so fast!  The bug you
+observe is often just the symptom of a deeper bug.  You should keep pursuing
+the bug, all the way down.  You should grok the bug and cherish it in fullness
+before causing its discorporation.
+
+Also, when finding a bug, ask yourself two questions: 'what design and
+programming habits led to the introduction of the bug in the first place?'
+And: 'what habits would systematically prevent the introduction of bugs like
+this?'
+
+
+
+=== Debugging: Tools
+
+When a Unix process accesses an invalid memory location, or (more rarely)
+executes an illegal instruction, or (even more rarely) something else goes
+wrong, the Unix operating system takes control.  The process is incapable of
+further execution and must be killed.  Before killing the process, however, the
+operating system does something for you: it opens a file named 'core' and
+writes the entire data space of the process into it.
+
+Thus, 'dumping core' is not a cause of problems, or even an effect of problems.
+It's something the operating system does to help you find fatal problems which
+have rendered your process unable to continue.
+
+One reads a 'core' file with a debugger.  The two most popular debuggers on
+Unix are 'adb' and 'gdb', although occasionally one finds 'dbx'.  Typically
+one starts a debugger like this: 'adb merc' or 'gdb merc core'.
+
+The first thing, and often the only thing, you need to do inside the debugger
+is take a stack trace.   In 'adb', the command for this is '$c'.  In gdb,
+the command is 'backtrace'.  The stack trace will tell you what function your
+program was in when it crashed, and what functions were calling it.  The
+debugger will also list the arguments to these functions.  Interpreting these
+arguments, and using more advanced debugger features, requires a fair amount of
+knowledge about assembly language programming.
+
+If you have access to a program named 'Purify' ... learn how to use it.
+
+
+
+=== Profiling
+
+Here is how to profile a program:
+
+(1) Remove all the .o files and the 'merc' executable:
+
+	rm *.o 'merc'
+
+(2) Edit your makefile, and change the PROF= line:
+
+	PROF    = -p
+
+(3) Remake merc:
+
+	make
+
+(4) Run merc as usual.  Shutdown the game with shutdown when you have run long
+    enough to get a good profiling base.  If you crash the game, or kill the
+    process externally, you won't get profiling information.
+
+(5) Run the 'prof' command:
+
+	prof merc > prof.out
+
+(6) Read prof.out.  Run 'man prof' to understand the format of the output.
+
+For advanced profiling, you can use 'PROF = -pg' in step (2), and use the
+'gprof' command in step 5.  The 'gprof' form of profiling gives you a report
+which lists exactly how many times any function calls any other function.  This
+information is valuable for debugging as well as performance analysis.
+
+Availability of 'prof' and 'gprof' varies from system to system.  Almost every
+Unix system has 'prof'.  Only some systems have 'gprof'.
+
+
+
+=== Schedule versus Features versus Quality
+
+Now for a few words on project management.
+
+Sooner or later, almost any project faces a trade-off between schedule,
+features, and quality.  Consider a student writing a term paper on the last
+night.  He has three unpalatable choices: he can turn it in late (miss the
+schedule).  He can turn in a shorter paper that doesn't cover everything
+(reduce the features).  Or he can churn out gibberish (lower the quality).
+
+Similarly in a software project, one often has a choice between making the
+release date, or dropping features, or shipping everything on time and
+hoping that it works (it usually doesn't).
+
+The most important thing to realize about this decision is that it IS a
+decision.  One can't get out of it by hoping that some miracle will occur.
+If you don't react consciously, then external circumstances will drive the
+decision.
+
+Ok, so suppose you are faced with the trade-off and go for a schedule slip.
+Don't take a small slip ... take a big impressive slip.  If you say
+'I'll just fix this one problem and finish ASAP', then likely you will
+wish you had taken just a little more time later.  If you say 'I think I
+need another day, so I'll slip by a week', then it's much more likely
+that what you'll have at the end of the week will do the job.  It's better
+to slip a large block of time once then to slip day-by-day or hour-by-hour
+repeatedly.
+
+If you go for dropping features, again, carve off a big hunk.  Don't be
+timid and pretend that you're going to do that work 'if you just get a
+little spare time.'  That feature of your project is GONE, exploit the
+lessened requirements for all the savings you can!
+
+I can't offer much advise on how to reduce quality, because that's always
+my last choice for what to drop on a project.
+
+
+
+=== Sleeping
+
+Simple and obvious, but true ... engineering takes an alert mind.
+
+It's very easy, very seductive, to throw a lot of consecutive hours at a
+problem.  One can get into a 'flow' state where one's mind becomes filled
+with the problem, and the work just pours out, hour after hour.  Many
+writers report that they watch a story take place, and just transcribe
+what they see, pounding out page after page of text.  Many software
+engineers have experienced a similar feeling, where the code appears
+to arise spontaneously as they watch themselves type.
+
+I believe most real work gets done in this state.
+
+My experience, however, is that the 'flow' period can end subtly and
+gradually.  Without ever noticing a change, I notice that new work isn't
+flowing out of my hands anymore, that I'm spending lots of time fixing
+up mistakes I made just a few moments ago.  Instead of ideas flashing
+confidently through my mind, doubts and questions arise.
+
+At this point there is a temptation to throw some more hours at the problem.
+'I'm here, and I was getting a lot of work done, why don't I just stay all
+night until I figure this out?'  This is a trap!  Don't do it!
+
+Instead, I suggest: go home, eat, shower, sleep, put yourself back together
+again.  Resume the next day.  While you sleep, your mind will work on the
+problem anyways, and you'll probably wake up with new ideas.  You'll get
+more done between 10:00 am and 2:00 pm the next day, then if you stayed up
+between midnight and 10:00 am.
+
+There is a problem with this strategy: remotivating yourself in the morning.
+If the project is one of your choice, that's usually not a problem.  If it's
+something you have to do but don't enjoy, you have to balance the remotivation
+problem versus the very low productivity of working without sleep.
+
+
+
+=== Books for Serious Programmers
+
+Out of all the thousands of books out there, three stand out:
+
+Kernighan and Plaugher, _The Elements of Programming Style_.
+
+Kernighan and Ritchie, _The C Programming Language_.
+
+Brooks, _The Mythical Man Month_;T;
+I"�<<p>Merc Release 2.1
+Sunday 01 August 1993</p>
+
+<p>Furey	mec@shell.portal.com
+Hatchet	hatchet@uclink.berkeley.edu
+Kahn	michael@uclink.berkeley.edu</p>
+
+<p>=== ‘I’m running a Mud so I can learn C programming!’</p>
+
+<p>Yeah, right.</p>
+
+<p>The purpose of this document is to record some of our knowledge, experience and
+philosophy.  No matter what your level, we hope that this document will help
+you become a better software engineer.</p>
+
+<p>Remember that engineering is work, and NO document will substitute for your
+own thinking, learning and experimentation.</p>
+
+<p>=== How to Learn in the First Place</p>
+
+<p>(1) Play with something.
+(2) Read the documentation on it.
+(3) Play with it some more.
+(4) Read documentation again.
+(5) Play with it some more.
+(6) Read documentation again.
+(7) Play with it some more.
+(8) Read documentation again.
+(9) Get the idea?</p>
+
+<p>The idea is that your mind can accept only so much ‘new data’ in a single
+session.  Playing with something doesn’t introduce very much new data, but it
+does transform data in your head from the ‘new’ category to the ‘familiar’
+category.  Reading documentation doesn’t make anything ‘familiar’, but it
+refills your ‘new’ hopper.</p>
+
+<p>Most people, if they even read documentation in the first place, never return
+to it.  They come to a certain minimum level of proficiency and then never
+learn any more.  But modern operating systems, languages, networks, and even
+applications simply cannot be learned in a single session.  You have to work
+through the two-step learning cycle MANY times to master it.</p>
+
+<p>=== The Environment</p>
+
+<p>Computer: the big or little box that you’re using to run Merc.  Computers come
+    from a <em>manufacturer</em> and have a <em>model</em> name.  Here is a list of common
+    manufacturers and models that you’re likely to encounter:</p>
+
+<pre><code>Manufacturer	Model
+------------	-----
+
+Sun		Sun-2
+Sun		Sun-3
+Sun		Sun-4
+DEC		Vax 5000
+DEC		Vax 5900
+IBM		RS/6000
+NeXT		NextCube
+Sequent		Symmetry
+Sequent		Balance
+
+As far as hardware goes, Merc will run on any 32-bit hardware.
+</code></pre>
+
+<p>Operating system: the lowest level program running on your computer.  Most
+    common computers run Unix or some variant of it, such as SunOS, Ultrix,
+    AIX, Mach, or Dynix.  Notice that many of these variants end in ‘IX’.</p>
+
+<pre><code>The two major 'families' of Unix are Berkeley Unix (developed at the
+illustrious University of California, Berkeley) and System 5 Unix
+(developed by Bell Laboratories, the progenitors of Unix).
+
+The most common non-Unix operating system is VMS (a proprietary operating
+system from DEC for their VAX computers).  In the personal computer world,
+you'll find MS-DOS, OS/2 for IBM PC's and compatibles, and MacOS for Apple
+Macintosh'es.
+
+GET THIS STRAIGHT: 'VAX' IS NOT AN OPERATING SYSTEM.  It's the name of a
+family of computers from DEC.  There are plenty of Vax'es running VMS, and
+there are even more Vax'es running Berkeley Unix or Ultrix.  The Vax'es
+running Unix have a lot more in common with other machines running
+Unix than they have with Vax'es running VMS.
+
+As far as operating systems go, Merc will run on Unix or Unix variants with
+TCP/IP networking compatible with Berkeley Unix.  It will also run, in
+single-user mode only, on MS-DOS.  With a reasonable amount of work, Merc
+can be ported to any operating system that provides TCP service for telnet
+connections.
+</code></pre>
+
+<p>Languages: Merc is written in C.  ANSI (the American National Standards
+    Institute) has a specification for the C language, and Merc is written in
+    Ansi Standard C.</p>
+
+<pre><code>The most popular compiler for Ansi Standard C is the Gnu 'gcc' compiler
+produced by the Free Software Foundation.  It's available by anonymous
+ftp from prep.ai.mit.edu.  Merc compiles just fine with Gcc 1.38, so
+you can probably use 1.42 and skip the much larger 2.X versions.
+
+You don't have to use gcc.  IBM RS/6000's running the AIX operating system
+come with an Ansi C compiler already.  So do NeXT machines (the standard
+'cc' on NeXT happens to be the Gnu C compiler).  Any Ansi compiler will
+work.
+
+Unfortunately, there are still many machines out there without an Ansi
+standard C compiler.  (Sun is the worst offender in this regard).  You
+can attempt to compile Merc with a non-Ansi (traditional) C compiler by
+using the 'mktrad' script.  See trad.txt for details.
+</code></pre>
+
+<p>If you don’t know what the manufacturer and model of your computer is, as well
+as its operating system, and whether the C compiler is Ansi or non-Ansi, then
+you need to find out.</p>
+
+<p>=== Basic Unix Tools</p>
+
+<p>‘man’	– gives you online manual pages</p>
+
+<p>‘grep’	– stands for ‘global regular expression print’</p>
+
+<p>‘vi’
+‘emacs’
+‘jove’	– use whatever editor floats your boat
+	   but learn the hell out of it
+	   you should know EVERY command in your editor</p>
+
+<p>‘ctags’	– makes ‘tags’ for your editor
+	   allows you to goto functions by name in any source file</p>
+
+<p>’&gt;’
+‘»’
+’&lt;’
+‘|’	– input and output redirection
+	   get someone to show you, or dig it out of ‘man csh’</p>
+
+<p>These are the basic day-in day-out development tools.  Developing without
+knowing how to use ALL of these well is like driving a car without knowing how
+to change gears.</p>
+
+<p>=== Debugging: Theory</p>
+
+<p>Debugging is a science.  You formulate a hypothesis, make predictions based on
+the hypothesis, run the program and provide it experimental input, observe its
+behavior, and confirm or refute the hypothesis.</p>
+
+<p>A good hypothesis is one which makes surprising predictions which then come
+true; predictions that other hypotheses don’t make.</p>
+
+<p>The first step in debugging is not to write bugs in the first place.  This
+sounds obvious, but sadly, is all too often ignored.</p>
+
+<p>If you build a program, and you get ANY errors or ANY warnings, you should fix
+them before continuing.  C was designed so that many buggy ways of writing code
+are legal, but will draw warnings from a suitably smart compiler (such as ‘gcc’
+with the ‘-Wall’ flag enabled).  It takes only minutes to check your warnings
+and to fix the code that generates them, but it takes hours to find bugs
+otherwise.</p>
+
+<p>‘Desk checking’ (proof reading) is almost a lost art in 1993.  Too bad.  You
+should desk check your code before even compiling it, and desk-check it again
+periodically to keep it fresh in mind and find new errors.  If you have someone
+in your group whose ONLY job it is to desk-check other people’s code, that
+person will find and fix more bugs than everyone else combined.</p>
+
+<p>One can desk-check several hundred lines of code per hour.  A top-flight
+software engineer will write, roughly, 99% accurate code on the first pass,
+which still means one bug per hundred lines.  And you are not top flight.
+So … you will find several bugs per hour by desk checking.  This is a very
+rapid bug fixing technique.  Compare that to all the hours you spend screwing
+around with broken programs trying to find ONE bug at a time.</p>
+
+<p>The next technique beyond desk-checking is the time-honored technique of
+inserting ‘print’ statements into the code, and then watching the logged
+values.  Within Merc code, you can call ‘printf’ or ‘fprintf’ to dump
+interesting values at interesting times.  Where and when to dump these values
+is an art, which you will learn only with practice.</p>
+
+<p>If you don’t already know how to redirect output in your operating system, now
+is the time to learn.  On Unix, type the command ‘man csh’, and read the part
+about the ‘&gt;’ operator.  You should also learn the difference between
+‘standard output’ (e.g. output from ‘printf’) and ‘error output’ (e.g. output
+from ‘fprintf’).</p>
+
+<p>Ultimately, you cannot fix a program unless you understand how it’s operating
+in the first place.  Powerful debugging tools will help you collect data, but
+they can’t interpret it, and they can’t fix the underlying problems.  Only you
+can do that.</p>
+
+<p>When you find a bug … your first impulse will be to change the code, kill the
+manifestation of the bug, and declare it fixed.  Not so fast!  The bug you
+observe is often just the symptom of a deeper bug.  You should keep pursuing
+the bug, all the way down.  You should grok the bug and cherish it in fullness
+before causing its discorporation.</p>
+
+<p>Also, when finding a bug, ask yourself two questions: ‘what design and
+programming habits led to the introduction of the bug in the first place?’
+And: ‘what habits would systematically prevent the introduction of bugs like
+this?’</p>
+
+<p>=== Debugging: Tools</p>
+
+<p>When a Unix process accesses an invalid memory location, or (more rarely)
+executes an illegal instruction, or (even more rarely) something else goes
+wrong, the Unix operating system takes control.  The process is incapable of
+further execution and must be killed.  Before killing the process, however, the
+operating system does something for you: it opens a file named ‘core’ and
+writes the entire data space of the process into it.</p>
+
+<p>Thus, ‘dumping core’ is not a cause of problems, or even an effect of problems.
+It’s something the operating system does to help you find fatal problems which
+have rendered your process unable to continue.</p>
+
+<p>One reads a ‘core’ file with a debugger.  The two most popular debuggers on
+Unix are ‘adb’ and ‘gdb’, although occasionally one finds ‘dbx’.  Typically
+one starts a debugger like this: ‘adb merc’ or ‘gdb merc core’.</p>
+
+<p>The first thing, and often the only thing, you need to do inside the debugger
+is take a stack trace.   In ‘adb’, the command for this is ‘$c’.  In gdb,
+the command is ‘backtrace’.  The stack trace will tell you what function your
+program was in when it crashed, and what functions were calling it.  The
+debugger will also list the arguments to these functions.  Interpreting these
+arguments, and using more advanced debugger features, requires a fair amount of
+knowledge about assembly language programming.</p>
+
+<p>If you have access to a program named ‘Purify’ … learn how to use it.</p>
+
+<p>=== Profiling</p>
+
+<p>Here is how to profile a program:</p>
+
+<p>(1) Remove all the .o files and the ‘merc’ executable:</p>
+
+<pre><code>rm *.o 'merc'
+</code></pre>
+
+<p>(2) Edit your makefile, and change the PROF= line:</p>
+
+<pre><code>PROF    = -p
+</code></pre>
+
+<p>(3) Remake merc:</p>
+
+<pre><code>make
+</code></pre>
+
+<p>(4) Run merc as usual.  Shutdown the game with shutdown when you have run long
+    enough to get a good profiling base.  If you crash the game, or kill the
+    process externally, you won’t get profiling information.</p>
+
+<p>(5) Run the ‘prof’ command:</p>
+
+<pre><code>prof merc &gt; prof.out
+</code></pre>
+
+<p>(6) Read prof.out.  Run ‘man prof’ to understand the format of the output.</p>
+
+<p>For advanced profiling, you can use ‘PROF = -pg’ in step (2), and use the
+‘gprof’ command in step 5.  The ‘gprof’ form of profiling gives you a report
+which lists exactly how many times any function calls any other function.  This
+information is valuable for debugging as well as performance analysis.</p>
+
+<p>Availability of ‘prof’ and ‘gprof’ varies from system to system.  Almost every
+Unix system has ‘prof’.  Only some systems have ‘gprof’.</p>
+
+<p>=== Schedule versus Features versus Quality</p>
+
+<p>Now for a few words on project management.</p>
+
+<p>Sooner or later, almost any project faces a trade-off between schedule,
+features, and quality.  Consider a student writing a term paper on the last
+night.  He has three unpalatable choices: he can turn it in late (miss the
+schedule).  He can turn in a shorter paper that doesn’t cover everything
+(reduce the features).  Or he can churn out gibberish (lower the quality).</p>
+
+<p>Similarly in a software project, one often has a choice between making the
+release date, or dropping features, or shipping everything on time and
+hoping that it works (it usually doesn’t).</p>
+
+<p>The most important thing to realize about this decision is that it IS a
+decision.  One can’t get out of it by hoping that some miracle will occur.
+If you don’t react consciously, then external circumstances will drive the
+decision.</p>
+
+<p>Ok, so suppose you are faced with the trade-off and go for a schedule slip.
+Don’t take a small slip … take a big impressive slip.  If you say
+‘I’ll just fix this one problem and finish ASAP’, then likely you will
+wish you had taken just a little more time later.  If you say ‘I think I
+need another day, so I’ll slip by a week’, then it’s much more likely
+that what you’ll have at the end of the week will do the job.  It’s better
+to slip a large block of time once then to slip day-by-day or hour-by-hour
+repeatedly.</p>
+
+<p>If you go for dropping features, again, carve off a big hunk.  Don’t be
+timid and pretend that you’re going to do that work ‘if you just get a
+little spare time.’  That feature of your project is GONE, exploit the
+lessened requirements for all the savings you can!</p>
+
+<p>I can’t offer much advise on how to reduce quality, because that’s always
+my last choice for what to drop on a project.</p>
+
+<p>=== Sleeping</p>
+
+<p>Simple and obvious, but true … engineering takes an alert mind.</p>
+
+<p>It’s very easy, very seductive, to throw a lot of consecutive hours at a
+problem.  One can get into a ‘flow’ state where one’s mind becomes filled
+with the problem, and the work just pours out, hour after hour.  Many
+writers report that they watch a story take place, and just transcribe
+what they see, pounding out page after page of text.  Many software
+engineers have experienced a similar feeling, where the code appears
+to arise spontaneously as they watch themselves type.</p>
+
+<p>I believe most real work gets done in this state.</p>
+
+<p>My experience, however, is that the ‘flow’ period can end subtly and
+gradually.  Without ever noticing a change, I notice that new work isn’t
+flowing out of my hands anymore, that I’m spending lots of time fixing
+up mistakes I made just a few moments ago.  Instead of ideas flashing
+confidently through my mind, doubts and questions arise.</p>
+
+<p>At this point there is a temptation to throw some more hours at the problem.
+‘I’m here, and I was getting a lot of work done, why don’t I just stay all
+night until I figure this out?’  This is a trap!  Don’t do it!</p>
+
+<p>Instead, I suggest: go home, eat, shower, sleep, put yourself back together
+again.  Resume the next day.  While you sleep, your mind will work on the
+problem anyways, and you’ll probably wake up with new ideas.  You’ll get
+more done between 10:00 am and 2:00 pm the next day, then if you stayed up
+between midnight and 10:00 am.</p>
+
+<p>There is a problem with this strategy: remotivating yourself in the morning.
+If the project is one of your choice, that’s usually not a problem.  If it’s
+something you have to do but don’t enjoy, you have to balance the remotivation
+problem versus the very low productivity of working without sleep.</p>
+
+<p>=== Books for Serious Programmers</p>
+
+<p>Out of all the thousands of books out there, three stand out:</p>
+
+<p>Kernighan and Plaugher, <em>The Elements of Programming Style</em>.</p>
+
+<p>Kernighan and Ritchie, <em>The C Programming Language</em>.</p>
+
+<p>Brooks, <em>The Mythical Man Month</em></p>
+;T;@%:versioni

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+#intro
+  %h2
+    This is Martin Josefsson's safe haven
+  %p
+    I am into programming, hypertext and free remixable culture.
+    %br/
+    I live in Berlin, but originated in Sweden. 
+    %br/
+    Ruby, Rails and C is what gets most of my brain cycles. 
+    %br/
+    If you wish to  <a href='mailto:josefsson.martin@gmail.com'>talk to me</a>, it would preferably be about soft or hardware hacking, *nix, bitcoin.
+    %br/
+    But then again, I am glad for most mail that is not about buying Viagra. 
+
+#articles
+  %h2 Articles
+  %ul
+    -(@site.sorted_articles).each do |post|
+      %li
+        =link_to(post[:title], post.path) 
+
+#treasures
+  %h2 Good finds
+  When sailing the web you occasionally port at good loot. On <a href="/finds/">this page</a> I repost some treasures.

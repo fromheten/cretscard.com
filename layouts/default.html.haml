@@ -1,0 +1,18 @@
+!!!
+%html{lang:'en'}
+  %head
+    %meta{charset:'utf-8'}
+    %title
+      -if @item[:title] == nil
+        cretscard.com
+      -else
+        #{@item[:title]} - cretscard.com
+    %link{rel:'stylesheet', type:'text/css', href:'/style.css', media:'screen' }
+    %meta{name:'generator', content:'nanoc =Nanoc::VERSION '}
+
+  %body
+    #topleft
+      %a{href:'/'}↩ Back to Martin's home
+    #main
+      %h1= @item[:title]
+      =yield
