@@ -1,6 +1,7 @@
 ---
 kind: article
 layot: default
+shareable: true
 title: "Test Post, Please Ignore"
 date: 2012-09-19 19:10
 comments: true

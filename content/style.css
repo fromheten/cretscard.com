@@ -7,18 +7,20 @@
  */
 
 html {
-	margin-left: 7%;
-	margin-right: 7%;
-
-
+	margin-left: 10%;
+	margin-right: 10%;
 }
+
 body {
 	color: #333;
 	text-align: left;
 	line-height: 1.4;
-
-	font-family: 'Century Gothic', Verdana, Arial, Sans-Serif;
+	font-family: Verdana, Arial, Sans-Serif;
 	font-size: 13px;
+}
+
+div#footer {
+	height:1em;
 }
 
 div.warning {
@@ -33,6 +35,11 @@ div.warning {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF56B', endColorstr='#E6E460'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#FFF56B), to(#E6E460)); /* for webkit browsers */
 	background: -moz-linear-gradient(top,  #FFFE68,  #E6E460); /* for firefox 3.6+ */
+}
+
+div.rightpic {
+	float:right;
+	margin-top:0.5em;
 }
 
 a:link {
