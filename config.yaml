@@ -5,6 +5,8 @@ text_extensions: [ 'coffee', 'erb', 'haml', 'handlebars', 'hb', 'htm', 'html', '
 
 output_dir: output
 
+base_url: http://cretscard.com/
+
 index_filenames: [ 'index.html' ]
 
 # Whether or not to generate a diff of the compiled content when compiling a
