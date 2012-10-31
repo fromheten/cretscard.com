@@ -1,6 +1,8 @@
 # encoding: UTF-8
 # Ok, this is my first attempt at a Rake. 
 
+require 'colorize'
+
 desc "Makes a new post. First asks for title, and then opens your editor. You only have to write and :x, and it is done"
 task :new_article do
 	# Should get title and date, create a .md in source/posts
@@ -21,7 +23,7 @@ task :new_article do
 	# Write the post structure and then open it in default editor
 	File.open(the_file, 'w').write(post_structure)
 	
-	puts "Have a pleasant day, and don't write nothing stupid"
+	puts "Have a pleasant day, and don't write nothing stupid".green
 	# Here is where you edit what editor you like
 	system "mvim -c 'norm G' #{the_file}"
 end
@@ -33,5 +35,6 @@ target_dir= '/home/public/'
 
 desc "Publish to host via SCP"
 task :publish do
-	system('scp -r output/* martinj_cretscard@ssh.phx.nearlyfreespeech.net:/home/public/')
+	system("scp -r output/* martinj_cretscard@ssh.phx.nearlyfreespeech.net:/home/public/")
+	puts "Good. Now all of this is the servers problem.".green
 end
