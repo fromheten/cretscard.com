@@ -15,7 +15,7 @@ I recently started using [Pocket](http://getpocket.com) instead of just having a
 To add the command to pentadactyl, type this is your shell:
 
 ~~~ sh
-$echo "command! pocket -description "Save to Pocket" open {PASTE YOUR PERSONAL BOOKMARKLET LINK}
+$echo "command! pocket -description "Save to Pocket" open {PASTE YOUR PERSONAL BOOKMARKLET LINK} >> ~/.pentadactylrc
 ~~~
 
 For me it looks like this:
