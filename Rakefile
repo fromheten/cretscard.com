@@ -4,7 +4,7 @@
 require 'colorize'
 
 desc "Makes a new post. First asks for title, and then opens your editor. You only have to write and :x, and it is done"
-task :new_article do
+task :new do
 	# Should get title and date, create a .md in source/posts
 	puts "What is the title of your post?"
 	title = $stdin.gets.delete("\n")

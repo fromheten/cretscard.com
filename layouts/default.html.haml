@@ -8,14 +8,25 @@
       -else
         #{@item[:title]} - cretscard.com
     %link{rel:'stylesheet', type:'text/css', href:'/style.css', media:'screen' }
+    <script type="text/javascript">var _gaq=_gaq||[];_gaq.push(['_setAccount','UA-33404708-1']);_gaq.push(['_setDomainName','cretscard.com']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s)})();</script>
 
   %body
-    #topleft
-      %a{href:'/'}↩ Back to Martin's home
+    -if @item[:title] != nil
+      #topleft
+        %a{href:'/'}↩ Back to Martin's home
+    -else
+      #topleft
+        %br/
     #main
       %h1= @item[:title]
       =yield
     -if @item[:shareable] != false
       #share
-        Share on 1:<a href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"><img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /></a>, 2:<a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-dnt="true">twitter</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        Share on 1:<a href="http://www.reddit.com/submit" onclick="window.location = 'http://www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"><img src="http://www.reddit.com/static/spreddit7.gif" alt="submit to reddit" border="0" /></a>, 2:<a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-dnt="true">twitter</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      #footer
+        #licence
+          Made by 
+          %a{href:"/me/"}Martin Josefsson. 
+          %a{href:"http://creativecommons.org/licenses/by-sa/3.0/"}cc-by-sa
+          and
+          %a{href:"https://github.com/fromheten/cretscard.com"}source.
