@@ -22,7 +22,7 @@ The focus in this relationship is not what you know, but how eager you are to ex
 You will feel obligated to learn, otherwise your tandem coder will be disappointed. Your learning and exploration will more than double, since you share the journey. Your creativity will blossom when two minds are smashed together over one problem. 
 
 ##And now: the worlds first ever tandem coder personal ad
-I am Martin Josefsson, I live in Berlin (Prenzlauer Berg) and work with Rails and other web stuff. My spare time is mostly about programming and computers, but I also enjoy learning German, biking and beers. I also like my [Arduino](http://www.arduino.cc/). You can find me on twitter [@axhlf](@axhlf) and I often lurk at [RUG::B](http://rug-b.de/). My email address is available at the <a href="/me/">me page</a>.
+I am Martin Josefsson, I live in Berlin (Prenzlauer Berg) and work with Rails and other web stuff. My spare time is mostly about programming and computers, but I also enjoy learning German, biking and beers. I also like my [Arduino](http://www.arduino.cc/). You can find me on twitter [@axhlf](https://twitter.com/axhlf) and I often lurk at [RUG::B](http://rug-b.de/). My email address is available at the <a href="/me/">me page</a>.
 
 If you live in Berlin and for some reason don't know me already, please contact me and well agree on a date to meet. If you are curious about what I am into, don't hesitate to contact me.
 
