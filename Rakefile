@@ -35,6 +35,7 @@ target_dir= '/home/public/'
 
 desc "Publish to host via SCP"
 task :publish do
+	system "nanoc"
 	system("scp -r output/* martinj_cretscard@ssh.phx.nearlyfreespeech.net:/home/public/")
 	puts "Good. Now all of this is the servers problem.".green
 end

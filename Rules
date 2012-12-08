@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-
 # A few helpful tips about the Rules file:
 #
 # * The string given to #compile and #route are matching patterns for
@@ -18,9 +17,17 @@ compile '/blog/*' do
 	layout 'default'
 end
 
-compile /finds/ do
+compile '/finds/*' do
 	filter :kramdown
 	layout 'default'
+end
+
+compile '/assets/*' do
+	# keep your filthy hands off
+end
+
+compile '/assets/js/*' do
+	# nothing
 end
 
 compile '*' do
