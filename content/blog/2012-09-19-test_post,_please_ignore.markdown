@@ -4,6 +4,7 @@ layot: default
 shareable: true
 title: "Test Post, Please Ignore"
 date: 2012-09-19 19:10
+created_at: 2012-09-19 19:10
 comments: true
 tags: [ 'computing', 'cretscard', 'rails', 'berlin', 'journal' ]
 language: 'en'

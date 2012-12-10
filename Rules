@@ -11,6 +11,12 @@
 #   “content/about.html”). To select all children, grandchildren, … of an
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
+route '/blog/feed/' do
+	'/blog.xml'
+end
+compile '/blog/feed/' do
+	filter :erb
+end
 
 compile '/blog/*' do
 	filter :kramdown

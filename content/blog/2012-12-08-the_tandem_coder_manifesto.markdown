@@ -3,6 +3,7 @@ kind: article
 shareable: true
 title: "The Tandem Coder Manifesto"
 date: 2012-12-08-21:37
+created_at: 2012-12-08-21:37 
 comments: true
 categories: tandem-coder 
 ---

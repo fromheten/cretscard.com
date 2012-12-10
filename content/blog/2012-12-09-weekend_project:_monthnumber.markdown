@@ -3,6 +3,7 @@ kind: article
 shareable: true
 title: "Weekend project: Monthnumber"
 date: 2012-12-09- 16:40
+created_at: 2012-12-09- 16:40
 comments: true
 categories: project, weekend project, sinatra, ruby, heroku
 ---

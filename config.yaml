@@ -65,3 +65,8 @@ watcher:
   # When to send notifications (using Growl or notify-send).
   notify_on_compilation_success: true
   notify_on_compilation_failure: true
+
+# A bunch of config for the feed helper
+title: "cretscards, articles by Martin Josefsson"
+author_name: "Martin Josefsso"
+author_uri: "http://www.cretscard.com/me/"

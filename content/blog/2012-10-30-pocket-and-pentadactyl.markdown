@@ -4,6 +4,7 @@ layout: default
 shareable: true
 title: "Pocket and Pentadactyl"
 date: 2012-10-30- 11:54
+created_at: 2012-10-30- 11:54 
 comments: true
 categories: tips, tricks, pentadactyl, uzbl, pocket, javascript, bookmarklet
 lang: 'en'
