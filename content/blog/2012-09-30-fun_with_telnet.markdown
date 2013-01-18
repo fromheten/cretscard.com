@@ -41,7 +41,7 @@ This is an easy way to experiment with http headers. Play around!
 Who says piracy needs some fancy schmancy Torrents or Usenet? Sten@blinkenlights.nl, who made #1, also hosts the whole fourth episode of Star Wars as ascii. To connect, you need to pop some corn, get a soda and do $`telnet towel.blinkenlights.nl`. The sound is not that good, though. And I don't think it comes in 720p. 
 
 ### Socialize
-The web is nice, we all spend much time reding and writing here. But the BBS's of the old day still live. There are [a lot of them, acually](http://synchro.net/sbbslist.html). If you want to try one random one out, [fatcats](telnet://fatcatsbbs.com) is fun. They [have a website too](http://fatcatsbbs.com/).
+The web is nice, we all spend much time reading and writing here. But the BBS's of the old day still live. There are [a lot of them, acually](http://synchro.net/sbbslist.html). If you want to try one random one out, [fatcats](telnet://fatcatsbbs.com) is fun. They [have a website too](http://fatcatsbbs.com/).
 
 ### Forget all about Azeroth
 All of this has been at least almost useful. But for forgetting your woes, there is only three things that help: time, alcohol or multi-user dungeons. To connect to one of the many muds avaliable, $`telnet` to `stonia.ttu.ee 4000`. [This particular one](http://www.mudconnect.com/mud-bin/adv_search.cgi?Mode=MUD&mud=Stonia+(The+Cruel+and+Lost+World+of+Stonia)) is newbie friendly, but remember that role-playing is encouraged. Be wary though, muds can be very fun and distracting! 
