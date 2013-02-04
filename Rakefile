@@ -11,7 +11,7 @@ task :new do
 
 	date = "#{Date.today.to_s}-"
 	
-	title_formatted_for_nanoc_compilation_compliance = title.downcase.gsub(/\s/, '_').gsub(/#/,'')
+	title_formatted_for_nanoc_compilation_compliance = title.downcase.gsub(/\s/, '_').gsub(/#/,'').gsub(/'/, '')
 
 	filename = date + title_formatted_for_nanoc_compilation_compliance
 
